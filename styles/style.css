@@ -34,10 +34,29 @@ h1 {
   padding-bottom: 20px;
 }
 
+.about-container {
+  text-align: center;
+  padding: 300px;
+}
+.about-content {
+  margin: 30px;
+  text-align: left;
+}
+
 .hero p {
   font-size: 36px;
   font-weight: 700;
   margin: 0;
+}
+.about-content h1 {
+  font-size: 64px;
+  font-family: var(--heading-font-family);
+}
+.about-content p {
+  font-size: 16px;
+}
+.about-content h2 {
+  font-size: 18px;
 }
 
 .hero h2 {
@@ -45,6 +64,7 @@ h1 {
   font-weight: 400;
   color: #272142;
 }
+
 .btn-branding {
   background-color: var(--primary-color);
   color: #ffffff;
@@ -86,5 +106,11 @@ h1 {
   }
   .hero p {
     display: none;
+  }
+  .about-container {
+    padding: 0;
+  }
+  .about-content {
+    text-align: center;
   }
 }
