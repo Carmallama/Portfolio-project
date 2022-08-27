@@ -22,7 +22,7 @@ p {
   text-align: center;
   padding: 300px;
 }
-.hero h1 {
+h1 {
   font-size: 96px;
   font-family: var(--heading-font-family);
 }
@@ -56,4 +56,28 @@ p {
 }
 .project-description {
   padding: 120px 60px;
+}
+
+@media (max-width: 960px) {
+  h1 {
+    font-size: 60px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  .project-description h2 {
+    font-size: 45px;
+  }
+  .hero {
+    text-align: center;
+    padding: 60px 0;
+  }
+
+  .hero h2 {
+    font-size: 18px;
+  }
+  .hero p {
+    display: none;
+  }
 }
