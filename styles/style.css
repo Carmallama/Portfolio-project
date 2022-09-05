@@ -82,6 +82,10 @@ footer .social-links a {
   font-size: 30px;
 }
 
+.nav-bar {
+  position: fixed;
+  background-color: var(--secondary-color);
+}
 .signature {
   color: black;
   text-decoration: none;
