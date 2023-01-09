@@ -23,6 +23,11 @@ p {
   text-align: center;
   padding: 200px;
 }
+.certifications {
+  background-color: var(--secondary-color);
+  text-align: center;
+  padding: 30px;
+}
 h1 {
   font-size: 96px;
   font-family: var(--heading-font-family);
@@ -190,13 +195,12 @@ footer .social-links a:hover {
   .content-container {
     padding: 0;
   }
-  .content {
-    text-align: center;
-  }
-  footer .email-link {
-    font-size: 15px;
-  }
-  footer .social-links a {
-    font-size: 20px;
-  }
+
+  text-align: center;
+}
+footer .email-link {
+  font-size: 15px;
+}
+footer .social-links a {
+  font-size: 20px;
 }
