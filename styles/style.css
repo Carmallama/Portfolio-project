@@ -144,6 +144,7 @@ footer .social-links a:hover {
   font-size: 18px;
   padding: 10px 30px;
 }
+
 .btn-branding-outline {
   background-color: #ffffff;
   color: var(--primary-color);
@@ -156,6 +157,12 @@ footer .social-links a:hover {
   padding: 120px 60px;
 }
 
+.btn:hover {
+  background-color: var(--primary-color);
+  color: white;
+  border-color: var(--primary-color);
+  transition: 0.4s ease-in-out;
+}
 .round-img {
   border-radius: 50%;
   display: block;
